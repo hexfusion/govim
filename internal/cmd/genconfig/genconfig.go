@@ -263,6 +263,7 @@ env:
   GH_USER: "myitcv"
   GH_TOKEN: ${{ secrets.GH_TOKEN }}
   GOVIM_TEST_RACE_SLOWDOWN: "1.5"
+  RACE_BUILD: "661"
 
 name: Go
 jobs:
